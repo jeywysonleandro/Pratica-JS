@@ -17,7 +17,24 @@
     if (idade < 18) {
         console.log("Menor de idade");
     }
-    
+
     else {
         console.log("Maior de idade");
+    }
+
+    //Comparar dois números
+
+    let a = 50
+    let b = 100
+
+    if (a > b) {
+        console.log("A é maior que B")
+    }
+
+    else if (b > a) {
+        console.log("B é maior que A");
+    }
+
+    else {
+        console.log("A e B são iguais");
     }
