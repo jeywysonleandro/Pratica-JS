@@ -38,3 +38,15 @@
     else {
         console.log("A e B são iguais");
     }
+
+    //Verificar se um número é par ou ímpar
+
+    let número = 12
+
+    if (número % 2 === 0) {
+        console.log("Par");
+    }
+
+    else {
+        console.log("Ìmpar");
+    }
