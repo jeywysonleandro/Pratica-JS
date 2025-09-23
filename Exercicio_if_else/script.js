@@ -52,3 +52,5 @@
     }
 
     //Checar senha correta
+
+    let senha = 1235
