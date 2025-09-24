@@ -40,3 +40,17 @@ else if (operacao === "/") {
 else {
     console.log("Operação inválida");
 }
+
+//3. Faixa etária
+
+let idade = 20
+
+if (idade >= 18) {
+    console.log("Adulto");
+}
+
+else if (idade <= 13) {
+    console.log("Criança");
+}
+
+else if (idade >=)
