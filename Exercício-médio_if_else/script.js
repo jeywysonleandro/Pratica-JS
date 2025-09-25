@@ -60,3 +60,26 @@ else if (idade <=59) {
 else {
     console.log("Idoso");
 }
+
+//4  Senha com verificação dupla.
+
+let senhaCorreta = "1234"
+let acertou = false
+let tentativas = 0
+
+while (tentativas < 3) {
+    tentativas++;
+    let tentativaUsuario = "1234"
+
+    if (tentativaUsuario === senhaCorreta) {
+        console.log("Acesso permitido");
+        acertou = true
+        break;
+    } else {
+        console.log("Senha incorreta");
+    }
+}
+
+if (!acertou) {
+    console.log("Conta bloqueada");
+}
