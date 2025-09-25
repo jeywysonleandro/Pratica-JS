@@ -61,7 +61,7 @@ else {
     console.log("Idoso");
 }
 
-//4  Senha com verificação dupla.
+//4 - Senha com verificação dupla.
 
 let senhaCorreta = "1234"
 let acertou = false
@@ -83,3 +83,20 @@ while (tentativas < 3) {
 if (!acertou) {
     console.log("Conta bloqueada");
 }
+
+//5 - Números ordenados.
+
+let numeros = [8, 2, 5];
+
+numeros.sort(function(a, b) {
+    return a - b;
+});
+
+console.log("Números em ordem crescente:", numeros);
+
+numeros.sort(function(a, b) {
+    return b - a;
+});
+
+console.log("Números em ordem decrescente:", numeros);
+
