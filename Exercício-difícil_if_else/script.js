@@ -94,3 +94,13 @@ else {
     console.log("Obesidade");
     
 }
+
+//5 - Validador de Senha
+
+let senha = "MinhaSenha123";
+
+if (senha.length >= 8 && /[A-Z]/.test(senha) && /[a-z]/.test(senha) && /[0-9]/.test(senha)) {
+    console.log("Senha válida");
+} else {
+    console.log("Senha inválida");
+}
