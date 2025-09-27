@@ -1,3 +1,5 @@
+//1 – Imposto de Renda Progressivo
+
 let renda =50000;
 let imposto = 0;
 
@@ -23,3 +25,23 @@ else {
 }
 
 console.log("Renda líquida: R$ " + (renda - imposto).toFixed(2));
+
+//2 – Cálculo de Faixa Etária Detalhada
+
+let idade = 21
+
+if (idade <= 12) {
+    console.log("Criança");
+}
+
+else if (idade <= 17) {
+    console.log("Adolescente");
+}
+
+else if (idade <= 59) {
+    console.log("Adulto");
+} 
+
+else {
+    console.log("Idoso")
+}
