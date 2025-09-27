@@ -50,4 +50,47 @@ else {
     console.log("F");
 }
 
-//
+//3 - Maior de Três Números
+
+let num1 = 500
+let num2 = 643
+let num3 = 34
+
+if (num1 > num2 && num1 > num3) {
+    console.log("num1 é maior");
+}
+
+else if (num2 > num1 && num2 > num3) {
+    console.log("num2 é maior");
+}
+
+else {
+    console.log("num3 é maior")
+};
+
+//4 - Calculadora de IMC linha por linha
+
+let peso = 60;
+let altura = 1.68;
+
+let imc = peso / (altura * altura);
+
+if (imc < 18.5) {
+    console.log("Abaixo do peso");
+    
+}
+
+else if (imc < 25) {
+    console.log("Normal");
+    
+}
+
+else if (imc < 30) {
+    console.log("Sobrepeso");
+        
+}
+
+else {
+    console.log("Obesidade");
+    
+}
