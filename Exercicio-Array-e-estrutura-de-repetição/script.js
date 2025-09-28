@@ -42,17 +42,15 @@ let nomes = ["Ana", "Carlos", "Beatriz", "Joao"];
 
 for (let index = 0; index < nomes.length; index++) {
     console.log("Nome " + (index + 1) + ": " + nomes[index]);
-
-     array[index];
 }
 
 //5 – Inverter a ordem de um array
 
-let numeros2 = [1, 2, 3, , 4, 5];
+let numeros2 = [1, 2, 3, 4, 5];
 let invertido = []
 
-for (let i = numeros1.length - 1; i >= 0; i--) {
-    invertido.push(numeros[i]);
+for (let i = numeros2.length - 1; i >= 0; i--) {
+    invertido.push(numeros2[i]);
 }
 
 console.log("Array original: " + numeros2);
