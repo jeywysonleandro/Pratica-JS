@@ -24,6 +24,8 @@ carro.cor = "Prata"
 console.log('\nObjeto DEPOIS:');
 console.log(carro);
 
+//3. Contando propriedades
+
 const animal = {
   especie: "Cachorro",
   nome: "Rex",
@@ -39,3 +41,16 @@ for (const propriedades in animal) {
 }
 
 console.log(`O objeto animal tem ${contador} propriedades`);
+
+//4. Verificando propriedade
+
+const livro = {
+  titulo: "O Hobbit",
+  autor: "J.R.R. Tolkien"
+};
+
+if (livro.anoPublicacao) {
+    console.log(`Ano de publicação: ${livro.anoPublicacao}`);
+} else {
+    console.log("Propriedade não encontrada");
+}
