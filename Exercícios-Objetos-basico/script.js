@@ -23,3 +23,19 @@ carro.cor = "Prata"
 
 console.log('\nObjeto DEPOIS:');
 console.log(carro);
+
+const animal = {
+  especie: "Cachorro",
+  nome: "Rex",
+  idade: 3,
+  cor: "Marrom",
+  peso: 12
+}
+
+let contador = 0;
+
+for (const propriedades in animal) {
+    contador = contador + 1
+}
+
+console.log(`O objeto animal tem ${contador} propriedades`);
