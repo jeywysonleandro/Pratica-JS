@@ -54,3 +54,15 @@ if (livro.anoPublicacao) {
 } else {
     console.log("Propriedade não encontrada");
 }
+
+//5. Convertendo objeto em array]
+
+const aluno = {
+    nome: "Maria",
+    idade: 21,
+    curso: "Arquitetura"
+};
+
+const alunoArray = Object.entries(aluno);
+
+console.log(alunoArray);
