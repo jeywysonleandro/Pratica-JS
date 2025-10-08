@@ -31,3 +31,19 @@ function totalCarrinho(obj) {
 
 console.log(totalCarrinho(carrinho));
 
+//Questão 3 – Verificação de chave
+
+const pessoa = {
+    nome: "Ana",
+    idade: 25,
+    cidade: "São Paulo"
+};
+
+function temChave(obj, chave) {
+    return obj.hasOwnProperty(chave);
+}
+
+console.log(temChave(pessoa, "idade")); 
+console.log(temChave(pessoa, "altura"));
+
+//
