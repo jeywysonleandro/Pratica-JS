@@ -46,4 +46,20 @@ function temChave(obj, chave) {
 console.log(temChave(pessoa, "idade")); 
 console.log(temChave(pessoa, "altura"));
 
-//
+//Questão 4 – Contagem de alunos em array de objetos
+
+const aulas = [
+  { curso: "JS", alunos: 20 },
+  { curso: "Python", alunos: 15 },
+  { curso: "HTML", alunos: 10 }
+];
+
+function totalAlunos(array) {
+  let total = 0;
+  for (const aula of array) {
+    total += aula.alunos;
+  }
+  return total;
+}
+
+console.log(totalAlunos(aulas));
