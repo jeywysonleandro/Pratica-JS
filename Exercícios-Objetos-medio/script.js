@@ -63,3 +63,22 @@ function totalAlunos(array) {
 }
 
 console.log(totalAlunos(aulas));
+
+//Questão 5 – Alterar valores específicos
+
+const funcionarios = [
+  { nome: "Carlos", setor: "Vendas" },
+  { nome: "Maria", setor: "Marketing" },
+  { nome: "João", setor: "Vendas" }
+];
+
+function mudarSetor(array, nomeFuncionario, novoSetor) {
+  for (const funcionario of array) {
+    if (funcionario.nome === nomeFuncionario) {  // encontra o funcionário pelo nome
+      funcionario.setor = novoSetor;             // altera o setor
+    }
+  }
+  return array;
+}
+
+console.log(mudarSetor(funcionarios, "Maria", "RH"));
